@@ -168,7 +168,7 @@ Validation.add('validate-alpha', 'Please use letters only (a-z) in this field.',
 And here's a custom one using options:
 
 ```javascript
-Validation.addAllThese('validate-password', 'Your password must be more than 6 characters and not be 'password' or the same as your name', {
+Validation.addAllThese('validate-password', 'Your password must be more than 6 characters and not be \'password\' or the same as your name', {
     minLength : 7,
     notOneOf : ['password','PASSWORD','1234567','0123456'],
     notEqualToField : 'username'
